@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo Black', sans-serif;
+font-family: 'Bungee', cursive;
+font-family: 'Lobster', cursive;
+}
+
+body,
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(./image/jeremy-bishop-tTY4nthc2IY-unsplash.jpg);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-page {
+    display: flex;
+    flex-direction: column;
+    width: 1800px;
+    height: 900px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-color: white;
+    border-radius: 40px;
+}
+
+.navbar {
+    color: white;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    width: 1800px;
+    height: 80px;
+}
+
+.logo {
+    margin: 50px 750px 0px 100px;
+}
+
+.btn-feature {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px 0px 20px;
+    justify-content: space-around;
+}
+
+.btn {
+    margin: 0px 50px 0px 50px;
+}
+
+.title {
+    color: white;
+    font-style: bold;
+    font-size: 120px;
+    margin: 100px 0px 0px 150px;
+}
+
+.mini-title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0px 0px 150px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(32, 87, 236);
+    border-radius: 25px;
+}
+
+.btn-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 200px;
+    height: 80px;
+    background-color: rgb(32, 87, 236);
+    border-radius: 0px 0px 40px 0px;
+    margin: 264px 0px 0px 1594px;
+}
